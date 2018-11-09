@@ -9,8 +9,8 @@ Check out [Generating a new SSH key and adding it to the ssh-agent](https://help
 ### Steps
 
 ```sh
-❯ssh-keygen -t rsa -b 4096 -C "gabrielbarreiroquintans@gmail.com"
-❯bash
+❯ ssh-keygen -t rsa -b 4096 -C "gabrielbarreiroquintans@gmail.com"
+❯ bash
 ❯eval "$(ssh-agent -s)"
 ❯fish
 ❯ssh-add ~/.ssh/id_rsa
@@ -32,7 +32,7 @@ on the description, use paste.
 
 ```sh
 ❯ cd ~/projects
-❯ git clone https://github.com/GabrielBQ/Calculadora.git
+❯ git clone git@github.com:GabrielBQ/dotfiles.git
 ❯ cd dotfiles
 ❯ cp ./gitconfig  ~/.gitconfig
 ```
